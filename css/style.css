@@ -1,0 +1,59 @@
+.main-section{
+    height: 100vh;
+}
+.slide-img{
+    background-image: url(../images/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0%, 50% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+@media (max-width: 767px) {
+    .slide-img{
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+}
+.logo h1{
+    font-size: 100px;
+    font-weight: 200;
+}
+.password-input{
+    position: relative;
+
+}
+#showPass-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-inline: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+}
+#hidePass-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-inline: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
+}
+#showPass-btn:hover{
+    color: rgb(43, 43, 231);
+}
+#hidePass-btn:hover{
+    color: rgb(43, 43, 231);
+}
