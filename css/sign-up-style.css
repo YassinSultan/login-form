@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    clip-path: polygon(100% 0, 100% 50%, 100% 98%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
